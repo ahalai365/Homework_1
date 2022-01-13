@@ -40,6 +40,7 @@
     line-height: 96px;
     font-size: 102px;
     font-weight: bold;
+    z-index: 2;
 }
 .header__subtitle {
     width: 388px;
@@ -50,9 +51,10 @@
     line-height: 25px;
     font-size: 18px;
     font-weight: normal;
+    z-index: 2;
 }
 .header__link {
-    /* линк в никуда */
+    color: #2f80ed;
 }
 .header__main-illustration {
     width: 765px;
@@ -174,4 +176,53 @@
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
+}
+/* Секция 3 */
+.feynman {
+    position: relative;
+    background-color: #f2f2f2;
+    height: 890px;
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.feynman__main-illustration {
+    width: 867px;
+    height: 637px;
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.feynman__title {
+    line-height: 1.15;
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+
+    width: 648px;
+}
+.feynman__subtitle {
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    z-index: 2;
+
+    margin-top: 70px;
+}
+.feynman__link {
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+
+    position: absolute;
+    top: 50%;
+    right: 48px;
+
+    color: #2f80ed;
 }
