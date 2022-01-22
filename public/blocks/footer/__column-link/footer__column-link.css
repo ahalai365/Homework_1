@@ -1,0 +1,6 @@
+.footer__column-link {
+    color: white;
+}
+.footer__column-link:nth-child(4n) {
+    margin-bottom: 16px;
+}

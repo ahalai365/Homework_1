@@ -1,0 +1,19 @@
+.section-title {
+    width: 60%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+    text-align:center;
+}
+.section-title:nth-last-child(2) {
+    width: 60%;
+    z-index: 2;
+    
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: normal;
+}

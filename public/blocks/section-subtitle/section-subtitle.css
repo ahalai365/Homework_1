@@ -1,0 +1,19 @@
+.section-subtitle {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    text-align:center;
+}
+.section-subtitle:nth-last-child(2) {
+    width: 60%;
+    margin-top: 20px;
+    z-index: 2;
+
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}
