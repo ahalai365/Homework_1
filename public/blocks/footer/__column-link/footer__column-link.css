@@ -4,3 +4,7 @@
 .footer__column-link:nth-child(4n) {
     margin-bottom: 16px;
 }
+.footer__column-link:hover {
+    opacity: 0.5;
+    text-shadow: 4px 0 5px rgba(0, 0, 0, 0.5);
+}
