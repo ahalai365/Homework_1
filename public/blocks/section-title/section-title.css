@@ -6,11 +6,11 @@
     font-size: 60px;
     font-weight: bold;
     text-align:center;
+    z-index: 2;
 }
 .section-title:nth-last-child(2) {
     width: 60%;
-    z-index: 2;
-    
+        
     line-height: 1.15;
     font-size: 60px;
     font-weight: normal;
